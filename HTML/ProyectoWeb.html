@@ -2,32 +2,113 @@
 <html lang="en"> 
 <head>
     <meta charset="utf-8"> 
+
     <meta name="viewport" 
     content="width=device-width">
+
     <meta name="theme-color" content="#06f">
+
     <title>Lord of the lore</title>
+
     <link rel="icon" type="image/png" href="Imagenes/Captura de pantalla 2026-07-03 a las 21.03.37.png">
+
     <meta name="description" content="Página dedicada al lore del Señor de los Anillos."> 
+
      <!-- meta name: Añade descripcion a la pagina -->
 </head>
+
 <body>
+
     <header>
     <h1>Bienvenido a una página del señor de los anillos</h1>
-    </header>
+
     <h2>Disfruta de nuestro contenido</h2>
-    <a href="Contenido">Contenido</a> 
+
+    <a href="#Contenido">Contenido</a> 
+    <a href="https://youtube.com/kai47" target="_blank" rel="noreferrer">Mayor información</a>
+    </header>
+
     <p>“Un anillo para gobernarlos a todos, un anillo para encontrarlos, un anillo para atraerlos a todos y atarlos en las tinieblas.”</p>
+
     <h3 id="Contenido">Contenido</h3>
+
     <ul>
         <li>Personajes</li>
-        <li>Lugares</li>
+        <li>Lugares de <span style="color:red">peliculas</span> y <span style="color: brown;">videojuegos</span></li>
         <li>Objetos</li>
     </ul>
+
     <img 
     height="400"
     width="400"
     title="Señor de los anillos"
     alt="Comunidad del anillos"
     src="Imagenes/señoranillos.png">
+
+    <details>
+        <summary>Objetivo de la web</summary>
+        <p>Mostrar datos y curiosidades del señor de los anillos</p>
+    </details>
+
+    <footer>
+        <h3>Formulario de contacto</h3>
+        <form method="post" action="/">
+            <fieldset>
+            <legend>Información personal</legend> 
+            <div>
+            <label for="name">Nombre</label>
+            <input 
+            id="name" 
+            type="text" 
+            placeholder="Emiliano Páez">
+            </div>
+            <div>
+            <label for="name">Email</label>
+            <input 
+            id="name" 
+            type="email" 
+            placeholder="paezemiliano11@gmail.com"
+            required>
+            </div>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Informacion adicional</legend>
+            <div>
+            <label for="tel">Número</label>
+            <input 
+            type="tel" 
+            id="tel" 
+            placeholder="Número contacto">
+            </div>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Quejas u otros</legend>
+            <div>
+            <label>Como encontraste la pagina
+                <input list="otros">
+            </label>
+            <datalist id="otros">
+                <option value="Conocidos"></option>
+                <option value="Facebook"></option>
+                <option value="Google"></option>
+            </datalist>
+
+            </div>
+            <label>¿Por qué deseas contactar?</label>
+            <div>
+            <select name="queja">
+                <option value="1">Problemas con el pedido</option>
+                <option value="2">Sugerencias</option>
+            </select>
+            </div>
+            </fieldset>
+
+            <button>Enviar contacto</button>
+
+           
+        </form>
+    </footer>
 </html>
 

@@ -1,0 +1,18 @@
+body{
+            color: hsl(348, 45%, 4%);
+            background-color: rgb(125, 89, 9);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+.parrafo:hover{
+    color:red
+}
+
+h1{
+    color:#086f
+}
+
+.anillos{
+    height: 200px;
+    width: 200px;
+}

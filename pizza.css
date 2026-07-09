@@ -9,6 +9,7 @@ header{
     border-bottom: 1px solid brown;
     background-color: wheat;
     justify-content: flex-start;
+    z-index: 100;
 
 }
 .nave a{
@@ -38,12 +39,12 @@ body{
     padding-top: 100px;
 }
 .info{
-    padding: 3rem 5%;
+    padding: rem 5%;
     display: grid;
     grid-template-columns: 1fr 1.3fr;
     align-items: center;
-    overflow: hidden;
     max-width: 100vw;
+    border-radius: 20px;
 }
 
 .boton{
@@ -60,11 +61,10 @@ body{
 }
 
 .imagen{
-    width: 100%;
-    height: auto;
-    transition: transform 0.2s ease-in;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.2s ease;
     max-height: 500px;
-    margin-left: 20px;
     margin-top: 30px;
 }
 .imagen:hover{
@@ -73,9 +73,11 @@ body{
 
 
 .comidas{
-    background-color: rgb(244, 237, 237);
+    background-color: rgb(251, 250, 250);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
 }
 
 .comidas h2 {
@@ -83,15 +85,54 @@ body{
     grid-column: 1 / -1; /* que ocupe TODAS las columnas, de la primera a la última */
 }
 
+.comi h3{
+    color: rgb(25, 51, 154);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.comi p{
+    color: rgb(32, 46, 149);
+    margin: 20px 20px 20px 
+}
+
 .pepe{
     height: 150px;
     width: 250px;
+    margin-left: 5%;
+    border-radius: 10px;
+
 }
+
 .hawa{
     height: 150px;
     width: 250px;
+    margin-left: 4%;
+    border-radius: 10px;
 }
+
+
 .champi{
     height: 150px;
     width: 250px;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+
+
+
+.comi{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+box-shadow: 0px 10px 40px;
+transition: transform 0.2s ease;
+text-align: justify;
+}
+.comi:hover{
+        transform: scale(1.1);
+
+}
+
+.comidas h3{
+    text-align: center;
 }

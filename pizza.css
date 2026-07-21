@@ -329,3 +329,41 @@ text-align: justify;
 .contacto{
     background-color: bisque;
 }
+
+.contacto{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+    background-color: rgb(96, 55, 6);
+    color: aliceblue;
+    padding: 5rem;
+    
+}
+
+.telefono{
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #3D2E2A;
+}
+.Correo{
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 10px;
+    color: #3D2E2A;
+}
+.Whats{
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    
+    border-radius: 10px;
+    color: #3D2E2A;
+}

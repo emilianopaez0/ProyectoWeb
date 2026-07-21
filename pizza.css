@@ -85,21 +85,25 @@ body{
     display: flexbox;
     text-align: start;
     padding: 5px;
-    
 }
 
 .horario li {
+    height: 30px;
     display: flex;
     align-items: justify;
   border-bottom: 1px solid beige;
   padding: 1rem; 
- justify-content: space-between;
+ justify-content:space-between;
 
 }
+
 .horario span{
+font-size: 18px;
 }
 
-
+.horario span:last-child{
+    color: rgb(46, 188, 244);
+}
 
 .botonmenu{
    display: inline-flex;
@@ -137,7 +141,6 @@ span{
 .botonmenu:hover::after{
     top: 0;
 }
-
 
 .imagen{
     width: 200px;
@@ -321,4 +324,8 @@ text-align: justify;
 
 .comidas h3{
     text-align: center;
+}
+
+.contacto{
+    background-color: bisque;
 }

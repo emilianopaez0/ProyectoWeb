@@ -163,7 +163,8 @@ span{
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     gap: 2rem;
     padding: 2rem;
-    margin: auto;}
+    margin: auto;
+}
 
 
 
@@ -331,39 +332,61 @@ text-align: justify;
 }
 
 .contacto{
+    background-color: rgb(78, 53, 4);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    background-color: rgb(96, 55, 6);
-    color: aliceblue;
-    padding: 5rem;
+    padding: 2rem;
+    margin: auto;
     
 }
 
 .telefono{
-    display: flex;
-    background-color: aliceblue;
-    padding: 20px;
-    margin-top: 20px;
+   background-color: white;
     border-radius: 10px;
-    color: #3D2E2A;
-}
-.Correo{
-    display: flex;
-    background-color: aliceblue;
-    padding: 20px;
-    margin-top: 20px;
+    box-shadow: 0px 1px 25px;
     align-items: center;
-    text-align: justify;
-    border-radius: 10px;
+    text-align:center;
+    width: 150px;
     color: #3D2E2A;
+    padding: 4rem;
 }
-.Whats{
-    display: flex;
-    background-color: aliceblue;
-    padding: 20px;
-    margin-top: 20px;
-    
+.telefono h3{
+    font-size: 25px;
+    text-align: center;
+}
+.telefono i{
+    size: 2rem;
+}
+.telefono p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.Whatsapp{
+     background-color: white;
     border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    width: 80px;
     color: #3D2E2A;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+        margin-bottom: 30px;
+
+}
+
+.Correo{
+     background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    color: #3D2E2A;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+        margin-bottom: 30px;
+
 }
